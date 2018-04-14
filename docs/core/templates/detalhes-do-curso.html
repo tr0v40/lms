@@ -1,31 +1,12 @@
-<!DOCTYPE html>
+{% extends 'base.html'%}
 
-<html>
-
-    <head>
-		<link rel="stylesheet" type="text/css" href="styels.css">
-		<meta charset="utf-8">
-		<title>Deep Code</title>
-	</head>
-	<header>
-		<img src="img/deeplogo.png">
-		<div id="Menu">
-			<ul>
-				<a href="index.html">Home</a>
-				<a href="cursos.html">Cursos</a>
-				<a href="formulario-disciplina.html">Novas Disciplinas</a>
-				<a href="formulario-curso.html">Novos Cursos</a>
-				<a href="login.html">Login</a>
-			</ul>
-		</div>
-	</header>
-	<body>
-		<CENTER><label><H1>Análise e Desenvolvimento de Sistemas</H1></label></CENTER>
-		<CENTER><label><H2>Detalhes do curso</H2></label></CENTER><br>
+{% block conteudo %}
+		<H1>Análise e Desenvolvimento de Sistemas</H1>
+		<H2>Detalhes do curso</H2>
 		<!--------------  ANCORA   ---------------->
 		<ul class="navbar">
-			<li class="box box-3"><a href="#sobre_curso_ads">Sobre o curso</a></li>
-			<li class="box box-3"><a href="#coordenador_curso_ads">Coordenador</a></li>
+			<li class=""><a href="#sobre_curso_ads">Sobre o curso</a></li>
+			<li class=""><a href="#coordenador_curso_ads">Coordenador</a></li>
 		</ul>
 
 		<!--------------  SOBRE O CURSO   ---------------->
@@ -38,7 +19,7 @@
 				<center><p><h3>Informações</h3></p></center>
 				<div class="tabelas">
 					<div class="tabela_vazia">
-						<table width="200px" border="0">
+						<table  border="0">
 							<tr><td>
 							</td></tr>
 						</table>
@@ -127,7 +108,7 @@
 			<CENTER><label><H1>Análise e Desenvolvimento de Sistemas</H1></label></CENTER>
 			<CENTER><label><H2>Detalhes do curso</H2></label></CENTER><br>
 			<!--------------  SOBRE O CURSO   ---------------->
-		
+
 			<div id="sobre_curso_ads">
 				<section class="box box-2">
 					<h2 class="section_title text-center">Sobre o Curso</h2>
@@ -179,9 +160,9 @@
 					</div>
 				</section>
 			</div>
-				
+
 			<!--------------  COORDENADOR DO CURSO   ---------------->
-				
+
 			<br><div id="coordenador_curso_ads"><br>
 				<section class="box box-2"><br>
 					<br><p><h2 class="section_title text-center">Coordenador</h2></p>
@@ -202,3 +183,4 @@
 
 
 </html>
+{% endblock  %}
