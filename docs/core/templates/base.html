@@ -1,4 +1,6 @@
 {% load static %}
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,12 +15,13 @@
             <img src="{%static 'img/deeplogo.png' %}">
         <div id="Menu">
             <ul>
-                <a href=" "><p id="Pmenu">Home</a>
-                <a href="cursos">Cursos</a>
-                <a href="formulario_discipĺina">Novas Disciplinas</a>
-                <a href="formulario-curso">Novos Cursos</a>
-                <a href="login">Login</a></p>
+                <a href="{% url " " %} "><p id="Pmenu">Home</a>
+                <a href="{% url "cursos" %}">CURSOS</a>
+                <a href="{% url "formulario_discipĺina" %}">Nova Disciplina</a>
+                <a href="{% url "formulario-curso" %}">Novos Cursos</a>
+                <a href="{% url "login" %}">Login</a></p>
             </ul>
+
         </div>
       </divi>
     </header>
