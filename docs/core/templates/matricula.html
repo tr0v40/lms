@@ -1,0 +1,575 @@
+{% extends 'base.html'%}
+
+{% block conteudo %}
+
+
+  <h1>ADS</h1>
+  <h2>Tecnologia Web</h2>
+  <h3>1º Semestre 2018</h3>
+  <h3>Turma A</h3>
+
+  <form class="lista" action="" method="post" id="lista_mat" onsubmit="validacaoMatricula(this); return false;">
+
+    <div class="linha">
+    <div class="colunas">Ra 0001</div>
+    <div class="qcolunas">Nome 0001</div>
+    <div class="colunas"><input type="radio" name="selecao1" id="" class="InputReprovadqo" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao1" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0002</div>
+    <div class="qcolunas">Nome 0002</div>
+    <div class="colunas"><input type="radio" name="selecao2" id="" class="InputReprovadqo" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao2" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0003</div>
+    <div class="qcolunas">Nome 0003</div>
+    <div class="colunas"><input type="radio" name="selecao3" id="" class="InputReprovadqo" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao3" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0004</div>
+    <div class="qcolunas">Nome 0004</div>
+    <div class="colunas"><input type="radio" name="selecao4" id="" class="InputReprovadqo" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao4" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0005</div>
+    <div class="qcolunas">Nome 0005</div>
+    <div class="colunas"><input type="radio" name="selecao5" id="" class="InputReprovadqo" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao5" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0006</div>
+    <div class="qcolunas">Nome 0006</div>
+    <div class="colunas"><input type="radio" name="selecao6" id="" class="InputReprovadqo" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao6" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0007</div>
+    <div class="qcolunas">Nome 0007</div>
+    <div class="colunas"><input type="radio" name="selecao7" id="" class="InputReprovadqo" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao7" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0008</div>
+    <div class="qcolunas">Nome 0008</div>
+    <div class="colunas"><input type="radio" name="selecao8" id="" class="InputReprovadqo" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao8" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0009</div>
+    <div class="qcolunas">Nome 0009</div>
+    <div class="colunas"><input type="radio" name="selecao9" id="" class="InputReprovadqo" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao9" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0010</div>
+    <div class="colunas">Nome 0010</div>
+    <div class="colunas"><input type="radio" name="selecao10" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao10" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0011</div>
+    <div class="colunas">Nome 0011</div>
+    <div class="colunas"><input type="radio" name="selecao11" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao11" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0012</div>
+    <div class="colunas">Nome 0012</div>
+    <div class="colunas"><input type="radio" name="selecao12" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao12" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0013</div>
+    <div class="colunas">Nome 0013</div>
+    <div class="colunas"><input type="radio" name="selecao13" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao13" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0014</div>
+    <div class="colunas">Nome 0014</div>
+    <div class="colunas"><input type="radio" name="selecao14" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao14" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0015</div>
+    <div class="colunas">Nome 0015</div>
+    <div class="colunas"><input type="radio" name="selecao15" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao15" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0016</div>
+    <div class="colunas">Nome 0016</div>
+    <div class="colunas"><input type="radio" name="selecao16" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao16" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0017</div>
+    <div class="colunas">Nome 0017</div>
+    <div class="colunas"><input type="radio" name="selecao17" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao17" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0018</div>
+    <div class="colunas">Nome 0018</div>
+    <div class="colunas"><input type="radio" name="selecao18" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao18" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0019</div>
+    <div class="colunas">Nome 0019</div>
+    <div class="colunas"><input type="radio" name="selecao19" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao19" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0020</div>
+    <div class="colunas">Nome 0020</div>
+    <div class="colunas"><input type="radio" name="selecao20" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao20" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0021</div>
+    <div class="colunas">Nome 0021</div>
+    <div class="colunas"><input type="radio" name="selecao21" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao21" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0022</div>
+    <div class="colunas">Nome 0022</div>
+    <div class="colunas"><input type="radio" name="selecao22" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao22" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0023</div>
+    <div class="colunas">Nome 0023</div>
+    <div class="colunas"><input type="radio" name="selecao23" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao23" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0024</div>
+    <div class="colunas">Nome 0024</div>
+    <div class="colunas"><input type="radio" name="selecao24" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao24" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0025</div>
+    <div class="colunas">Nome 0025</div>
+    <div class="colunas"><input type="radio" name="selecao25" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao25" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0026</div>
+    <div class="colunas">Nome 0026</div>
+    <div class="colunas"><input type="radio" name="selecao26" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao26" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0027</div>
+    <div class="colunas">Nome 0027</div>
+    <div class="colunas"><input type="radio" name="selecao27" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao27" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0028</div>
+    <div class="colunas">Nome 0028</div>
+    <div class="colunas"><input type="radio" name="selecao28" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao28" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0029</div>
+    <div class="colunas">Nome 0029</div>
+    <div class="colunas"><input type="radio" name="selecao29" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao29" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0030</div>
+    <div class="colunas">Nome 0030</div>
+    <div class="colunas"><input type="radio" name="selecao30" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao30" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0031</div>
+    <div class="colunas">Nome 0031</div>
+    <div class="colunas"><input type="radio" name="selecao31" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao31" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0032</div>
+    <div class="colunas">Nome 0032</div>
+    <div class="colunas"><input type="radio" name="selecao32" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao32" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0033</div>
+    <div class="colunas">Nome 0033</div>
+    <div class="colunas"><input type="radio" name="selecao33" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao33" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0034</div>
+    <div class="colunas">Nome 0034</div>
+    <div class="colunas"><input type="radio" name="selecao34" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao34" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0035</div>
+    <div class="colunas">Nome 0035</div>
+    <div class="colunas"><input type="radio" name="selecao35" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao35" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0036</div>
+    <div class="colunas">Nome 0036</div>
+    <div class="colunas"><input type="radio" name="selecao36" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao36" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0037</div>
+    <div class="colunas">Nome 0037</div>
+    <div class="colunas"><input type="radio" name="selecao37" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao37" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0038</div>
+    <div class="colunas">Nome 0038</div>
+    <div class="colunas"><input type="radio" name="selecao38" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao38" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0039</div>
+    <div class="colunas">Nome 0039</div>
+    <div class="colunas"><input type="radio" name="selecao39" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao39" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0040</div>
+    <div class="colunas">Nome 0040</div>
+    <div class="colunas"><input type="radio" name="selecao40" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao40" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0041</div>
+    <div class="colunas">Nome 0041</div>
+    <div class="colunas"><input type="radio" name="selecao41" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao41" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0042</div>
+    <div class="colunas">Nome 0042</div>
+    <div class="colunas"><input type="radio" name="selecao42" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao42" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0043</div>
+    <div class="colunas">Nome 0043</div>
+    <div class="colunas"><input type="radio" name="selecao43" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao43" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0044</div>
+    <div class="colunas">Nome 0044</div>
+    <div class="colunas"><input type="radio" name="selecao44" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao44" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0045</div>
+    <div class="colunas">Nome 0045</div>
+    <div class="colunas"><input type="radio" name="selecao45" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao45" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0046</div>
+    <div class="colunas">Nome 0046</div>
+    <div class="colunas"><input type="radio" name="selecao46" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao46" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0047</div>
+    <div class="colunas">Nome 0047</div>
+    <div class="colunas"><input type="radio" name="selecao47" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao47" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0048</div>
+    <div class="colunas">Nome 0048</div>
+    <div class="colunas"><input type="radio" name="selecao48" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao48" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0049</div>
+    <div class="colunas">Nome 0049</div>
+    <div class="colunas"><input type="radio" name="selecao49" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao49" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0050</div>
+    <div class="colunas">Nome 0050</div>
+    <div class="colunas"><input type="radio" name="selecao50" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao50" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0051</div>
+    <div class="colunas">Nome 0051</div>
+    <div class="colunas"><input type="radio" name="selecao51" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao51" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0052</div>
+    <div class="colunas">Nome 0052</div>
+    <div class="colunas"><input type="radio" name="selecao52" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao52" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0053</div>
+    <div class="colunas">Nome 0053</div>
+    <div class="colunas"><input type="radio" name="selecao53" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao53" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0054</div>
+    <div class="colunas">Nome 0054</div>
+    <div class="colunas"><input type="radio" name="selecao54" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao54" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0055</div>
+    <div class="colunas">Nome 0055</div>
+    <div class="colunas"><input type="radio" name="selecao55" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao55" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0056</div>
+    <div class="colunas">Nome 0056</div>
+    <div class="colunas"><input type="radio" name="selecao56" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao56" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0057</div>
+    <div class="colunas">Nome 0057</div>
+    <div class="colunas"><input type="radio" name="selecao57" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao57" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0058</div>
+    <div class="colunas">Nome 0058</div>
+    <div class="colunas"><input type="radio" name="selecao58" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao58" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0059</div>
+    <div class="colunas">Nome 0059</div>
+    <div class="colunas"><input type="radio" name="selecao59" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao59" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0060</div>
+    <div class="colunas">Nome 0060</div>
+    <div class="colunas"><input type="radio" name="selecao60" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao60" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0061</div>
+    <div class="colunas">Nome 0061</div>
+    <div class="colunas"><input type="radio" name="selecao61" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao61" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0062</div>
+    <div class="colunas">Nome 0062</div>
+    <div class="colunas"><input type="radio" name="selecao62" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao62" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0063</div>
+    <div class="colunas">Nome 0063</div>
+    <div class="colunas"><input type="radio" name="selecao63" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao63" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0064</div>
+    <div class="colunas">Nome 0064</div>
+    <div class="colunas"><input type="radio" name="selecao64" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao64" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0065</div>
+    <div class="colunas">Nome 0065</div>
+    <div class="colunas"><input type="radio" name="selecao65" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao65" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0066</div>
+    <div class="colunas">Nome 0066</div>
+    <div class="colunas"><input type="radio" name="selecao66" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao66" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0067</div>
+    <div class="colunas">Nome 0067</div>
+    <div class="colunas"><input type="radio" name="selecao67" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao67" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0068</div>
+    <div class="colunas">Nome 0068</div>
+    <div class="colunas"><input type="radio" name="selecao68" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao68" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0069</div>
+    <div class="colunas">Nome 0069</div>
+    <div class="colunas"><input type="radio" name="selecao69" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao69" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0070</div>
+    <div class="colunas">Nome 0070</div>
+    <div class="colunas"><input type="radio" name="selecao70" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao70" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0071</div>
+    <div class="colunas">Nome 0071</div>
+    <div class="colunas"><input type="radio" name="selecao71" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao71" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0072</div>
+    <div class="colunas">Nome 0072</div>
+    <div class="colunas"><input type="radio" name="selecao72" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao72" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0073</div>
+    <div class="colunas">Nome 0073</div>
+    <div class="colunas"><input type="radio" name="selecao73" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao73" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0074</div>
+    <div class="colunas">Nome 0074</div>
+    <div class="colunas"><input type="radio" name="selecao74" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao74" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0075</div>
+    <div class="colunas">Nome 0075</div>
+    <div class="colunas"><input type="radio" name="selecao75" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao75" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0076</div>
+    <div class="colunas">Nome 0076</div>
+    <div class="colunas"><input type="radio" name="selecao76" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao76" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0077</div>
+    <div class="colunas">Nome 0077</div>
+    <div class="colunas"><input type="radio" name="selecao77" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao77" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0078</div>
+    <div class="colunas">Nome 0078</div>
+    <div class="colunas"><input type="radio" name="selecao78" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao78" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0079</div>
+    <div class="colunas">Nome 0079</div>
+    <div class="colunas"><input type="radio" name="selecao79" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao79" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+
+
+    <div class="linha">
+    <div class="colunas">Ra 0080</div>
+    <div class="colunas">Nome 0080</div>
+    <div class="colunas"><input type="radio" name="selecao80" id="" class="InputAprovado" value="aprovado">Aprovado<input type="radio" name="selecao80" id="" class="InputReprovado" value="reprovado">Reprovado</div>
+    </div>
+    <div class="botao">
+      <input type="submit" id="enviar"/>
+    </div>
+  </form>
+{% endblock  %}
