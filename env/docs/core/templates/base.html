@@ -1,0 +1,36 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Deep Code - {{ titulo }}</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'style.css' }%"/>
+    </head>
+
+  <body>
+    <header>
+        <div class="cabe">
+            <img src="{%static 'img/deeplogo.png' %}">
+        <div id="Menu">
+            <ul>
+                <a href="{% url " " %} "><p id="Pmenu">Home</a>
+                <a href="{% url "cursos" %}">Cursos</a>
+                <a href="{% url "formulario_discipĺina" %}">Nova Disciplina</a>
+                <a href="{% url "formulario-curso" %}">Novos Cursos</a>
+                <a href="{% url "login" %}">Login</a></p>
+            </ul>
+
+        </div>
+      </divi>
+    </header>
+    <main>
+      {% block conteudo %} {% endblock %}
+    </main>
+    <footer class="footer">
+          <p>"Valorize os pequenos começos"</p>
+    </footer>
+  </body>
+
+</html>

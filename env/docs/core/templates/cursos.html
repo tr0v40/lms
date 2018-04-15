@@ -1,0 +1,24 @@
+{% extends 'base.html'%}
+
+{% block conteudo %}
+        <main>
+            <div>
+                <h1 class="titulo-pagina">CURSOS</h1>
+
+                        <div class="nomeCurso">
+                            {%for c in cursos%}
+                                <h2><a href="{{ c.link }}">{{ c.nome }}</a></h2>
+                        </div>
+                        <div class="resumoCurso">
+                            {%for r in resumo%}
+                                    <p>{{ r }}</p>
+                                    <p>Saiba mais</p>
+                        </div>
+
+                    </div>
+                    {%endfor%}
+                    {%endfor%}
+                </div>
+            </div>
+        </main>
+{% endblock  %}
